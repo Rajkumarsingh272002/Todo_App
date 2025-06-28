@@ -1,4 +1,4 @@
-Project का नाम और उद्देश्य=> This is simple "todo" app for beginner learning purpose. main ojective is that you insert any text related to simple work such that anyone name you write or any message you write or pets names you write .this type of work you can do.
+Project का Name और Aim => This is simple "todo" app for beginner learning purpose. main ojective is that you insert any text related to simple work such that anyone name you write or any message you write or pets names you write .this type of work you can do.
 ..............................................................................
 
 ScreenShot=>
