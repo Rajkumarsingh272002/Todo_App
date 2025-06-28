@@ -108,4 +108,4 @@ TodoList स event आन पर toggle या delete करता ह।
 6-open browser and type (http://localhost:5173/) into browser address bar
 .............................................................................................................................
 
-Tech Stack=> (HTML, css bootstrap5, vue.js3 composition-api)
+Tech Stack=> (HTML, css3, bootstrap5, vue.js3 composition-api)
