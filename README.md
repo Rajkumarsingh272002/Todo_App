@@ -101,9 +101,9 @@ TodoList स event आन पर toggle या delete करता ह।
 
 
 5-इसके बाद ये command चलाएं:
-cd todo
-npm install
-npm run dev
+  -> cd todo
+  -> npm install
+  -> npm run dev
 
 6-open browser and type (http://localhost:5173/) into browser address bar
 .............................................................................................................................
