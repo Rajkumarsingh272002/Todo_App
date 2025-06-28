@@ -109,3 +109,28 @@ TodoList स event आन पर toggle या delete करता ह।
 .............................................................................................................................
 
 Tech Stack=> (HTML, css3, bootstrap5, vue.js3 composition-api)
+
+..........................................................................................................................
+
+package.json =>
+
+{
+  "name": "todoapp",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "vite": "^6.0.11",
+    "vite-plugin-vue-devtools": "^7.7.1"
+  }
+}
+
