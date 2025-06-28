@@ -1,33 +1,52 @@
-# Todo_App
+│── src/
+│ ├── components/
+│ │ ├── TodoForm.vue
+│ │ ├── TodoList.vue
+│ │ ├── TodoItem.vue
+│ ├── App.vue
+│ ├── main.jss
+│── package.json
 
-This is Todo apps which any one add task and anyone can delete ownself task
+1-TodoForm.vue → नया टास्क जोड़न क लए
+2 TodoItem.vue → एक-एक टास्क को दखान और actions (complete/delete) करन क लए
+3 TodoList.vue → सार टास्क को लस्ट क रूप म दखान क लए
+4-App.vue → Parent component जो इन सबको मनज करगा
 
-# todoApp
+1->TodoForm.vue → नया टास्क जोड़न क लए
+�इसका काम क्या ह?
+✅
+newTodo → यह input field को track करता ह।
+✅
+जब "Enter" दबाया जाता ह या "
+➕
+जोड़" बटन िक्लक होता ह, तो event emit करता ह।
+✅
+Parent (App.vue) इस event को सनकर todos list म नया टास्क जोड़ दगा।
 
-This template should help get you started developing with Vue 3 in Vite.
+2->TodoItem.vue → एक-एक टास्क को दखान और actions (complete/delete) करन क लए
+�इसका काम क्या ह?
+✅
+यह todo को display करता ह।
+✅
+Complete/Incomplete toggle करन क लए toggleComplete event emit करता ह।
+✅
+Delete करन क लए deleteTodo event emit करता ह।
 
-## Recommended IDE Setup
+3->TodoList.vue → सार टास्क को लस्ट क रूप म दखान क लए
+�इसका काम क्या ह?
+✅
+यह todos1 array को loop करक Todo म भजता ह।
+✅
+अगर कोई event emit होता ह (toggle-complete2 या delete-todo2), तो यह उस Parent (App.vue)
+को forward करता ह।
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+4->App.vue (Main Component - लास्ट म दखगा!)
+�इसका काम क्या ह?
+✅
+todos list को track करता ह।
+✅
+TodoForm स event आन पर नया टास्क जोड़ता ह।
+newTodo data goto app.vue(todos.value.push({ text: todoText.trim(), completed: false });) by app.vue(<TodoForm @add-todo="addTodo"/>)
+✅
+TodoList स event आन पर toggle या delete करता ह।
+✅
