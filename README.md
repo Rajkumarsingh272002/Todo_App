@@ -79,6 +79,7 @@ TodoList स event आन पर toggle या delete करता ह।
   c:/
   and paste this path(\Users\Rajkumar\Desktop\todoApp) then you see of cmd look like this:
   c:\Users\Rajkumar\Desktop\todoApp   
+  
 3- Create Project using vue.js 
     you type(npm create vue@latest) into cmd like this:
   C:\Users\Rajkumar\Desktop\todoApp>npm create vue@latest
@@ -107,4 +108,4 @@ npm run dev
 6-open browser and type (http://localhost:5173/) into browser address bar
 .............................................................................................................................
 
-Tech Stack=> (HTML, css bootstrap5, vue.js composition-api)
+Tech Stack=> (HTML, css bootstrap5, vue.js3 composition-api)
