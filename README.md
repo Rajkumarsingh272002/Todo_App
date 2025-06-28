@@ -1,4 +1,4 @@
-////│── src/
+│── src/
 │ ├── components/
 │ │ ├── TodoForm.vue
 │ │ ├── TodoList.vue
