@@ -70,9 +70,22 @@ TodoList स event आन पर toggle या delete करता ह।
 ..............................................................................................................................
 
 कैसे चलाएं (install/run
+FRONTEND WORK:- 
+0-Node.js Install (अगर पहले से नहीं है) Node.js download : https://nodejs.org 
+for check node install or not:- open cmd-command and type (node -v) then enter .you will see v22.11.0
 
+1-download all(vue.js Todo_App project) from github 
 
-6-open browser and type (http://localhost:5173/) into browser address bar
+2-how run download project from local environment 
+  --1- you open this vue.js3-project with visual-studio-code . 
+  ---2-opend cmd-command and type (cd ..) then enter like this you continue (cd ..) when till you will not found c:\ and in last you cmd-command look like this c:/ 
+  ---3-you cmd-command look like this: c:/ and open visual-studio-code goto file-menu click(open-folder) then select Todo_App project(all files and folder) where you download this Todo_App from github after open          folder and select Todo_App you will see vue.js project . 
+  --4- goto view-menu select (terminal) . from terminal you find path then you copy only just example like this:(\Users\Rajkumar\Desktop\project1\todoApps\todoApp) . same as your computer do like this but your           computer will be your path you copy and you used own path, do not use my path ok. 
+  --5-paste(\Users\Rajkumar\Desktop\project1\todoApps\todoApp) into cmd. same as you paste own path like this ok, not my path ok. 
+      cmd:- C: \Users\Rajkumar\Desktop\project1\todoApps\todoApp> then you do enter and agin type (npm run dev) in last
+          C: \Users\Rajkumar\Desktop\project1\todoApps\todoApp>npm run dev      ...(then enter your vue.js project will be run . you type http://localhost:5173/ into browser)
+
+    6-open browser and type (http://localhost:5173/) into browser address bar you found Todo_App display
 .............................................................................................................................
 
 Tech Stack=> (HTML, css3, javascript,bootstrap5, vue.js3 composition-api)
