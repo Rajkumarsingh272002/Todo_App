@@ -71,66 +71,12 @@ TodoList स event आन पर toggle या delete करता ह।
 
 कैसे चलाएं (install/run
 
-0-  make folder (todoApp) on desktop and select path of (todoApp) folder such that like this (\Users\Rajkumar\Desktop\todoApp).
-
-1-opend cmd-command and type (cd ..) then enter like this you continue (cd ..) when till you will not  found c:\ and in last you cmd-command look c:/
-
-2-you cmd-command look like this:
-  c:/
-  and paste this path(\Users\Rajkumar\Desktop\todoApp) then you see of cmd look like this:
-  c:\Users\Rajkumar\Desktop\todoApp   
-  
-3- Create Project using vue.js 
-    you type(npm create vue@latest) into cmd like this:
-  C:\Users\Rajkumar\Desktop\todoApp>npm create vue@latest
-  
-  (npm create vue@latest क्या करता है ये command?
-  यह command Vue.js का latest starter setup बनाता है, यानी:
-  Vite के साथ Vue project
-  Project name, TypeScript, Router, Pinia आदि setup options)
-
-4-फिर यह पूछेगा:
-
-✔ Project name: … todo
-✔ Add TypeScript? … No
-✔ Add Vue Router for Single Page Application development? … Yes
-✔ Add Pinia for state management? … Yes
-✔ Add Vitest for Unit Testing? … No
-✔ Add Cypress for Testing? … No
-✔ Add ESLint for code quality? … Yes
-
-
-5-इसके बाद ये command चलाएं:
-  -> cd todo
-  -> npm install
-  -> npm run dev
 
 6-open browser and type (http://localhost:5173/) into browser address bar
 .............................................................................................................................
 
-Tech Stack=> (HTML, css3, bootstrap5, vue.js3 composition-api)
+Tech Stack=> (HTML, css3, javascript,bootstrap5, vue.js3 composition-api)
 
 ..........................................................................................................................
 
-package.json =>
-
-{
-  "name": "todoapp",
-  "version": "0.0.0",
-  "private": true,
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "vue": "^3.5.13"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-vue": "^5.2.1",
-    "vite": "^6.0.11",
-    "vite-plugin-vue-devtools": "^7.7.1"
-  }
-}
 
